@@ -46,7 +46,7 @@ This repository contains 30 bite-sized JavaScript projects designed to enhance p
 - [x] 15 - LocalStorage
 - [x] 16 - Mouse Move Shadow
 - [x] 17 - Sort Without Articles
-- [ ] 18 - Adding Up Times with Reduce
+- [x] 18 - Adding Up Times with Reduce
 - [ ] 19 - Webcam Fun
 - [ ] 20 - Speech Detection
 - [ ] 21 - Geolocation
