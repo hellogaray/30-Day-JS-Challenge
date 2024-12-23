@@ -13,9 +13,16 @@ function addItem(event) {
     populateList(items, itemsList)
     localStorage.setItem('items', JSON.stringify(items));
     this.reset();
-
 }
 
+function toggleDone(event) {
+    if (!event.target.matches('input')) return;
+    const el = event.target;
+    const index = el.dataset.index;
+    items[index].done = !items[index].done;
+    localStorage.setItem('items', JSON.stringify(items));
+    populateList(items, itemsList)
+}
 
 function populateList(plates = [], platesList) {
     platesList.innerHTML = plates.map((plate, i) => {
@@ -29,5 +36,6 @@ function populateList(plates = [], platesList) {
 }
 
 addItems.addEventListener('submit', addItem);
+itemsList.addEventListener('click', toggleDone);
 
 populateList(items, itemsList);
