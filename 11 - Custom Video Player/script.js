@@ -12,6 +12,11 @@ function togglePlay() {
     }
 }
 
+function updateButton() {
+    const icon = this.paused ? '⏵' : '⏸';
+    toggle.textContent = icon;
+}
+
 for (let i = 0; i < skipButtons.length; i++) {
     skipButtons[i].addEventListener("click", function() {
         console.log( video.currentTime);
@@ -20,4 +25,8 @@ for (let i = 0; i < skipButtons.length; i++) {
 }
 
 video.addEventListener('click', togglePlay);
+video.addEventListener('play', updateButton);
+video.addEventListener('pause', updateButton);
 toggle.addEventListener('click', togglePlay);
+toggle.addEventListener('click', togglePlay);
+
