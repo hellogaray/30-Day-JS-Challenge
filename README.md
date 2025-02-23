@@ -49,7 +49,7 @@ This repository contains 30 bite-sized JavaScript projects designed to enhance p
 - [ ] 18 - Adding Up Times with Reduce
 - [ ] 19 - Webcam Fun
 - [ ] 20 - Speech Detection
-21 - Geolocation
+- [ ] 21 - Geolocation
 - [ ] 22 - Follow Along Link Highlighter
 - [ ] 23 - Speech Synthesis
 - [ ] 24 - Sticky Nav
