@@ -35,9 +35,9 @@ This repository contains 30 bite-sized JavaScript projects designed to enhance p
 - [x] 04 - Array Cardio Day 1
 - [x] 05 - Flex Panel Gallery
 - [x] 06 - Type Ahead
-- [ ] 07 - Array Cardio Day 2
-- [ ] 08 - Fun with HTML5 Canvas
-- [ ] 09 - Dev Tools Domination
+- [x] 07 - Array Cardio Day 2
+- [x] 08 - Fun with HTML5 Canvas
+- [x] 09 - Dev Tools Domination
 - [ ] 10 - Hold Shift and Check Checkboxes
 - [ ] 11 - Custom Video Player
 - [ ] 12 - Key Sequence Detection
