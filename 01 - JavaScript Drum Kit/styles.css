@@ -1,0 +1,92 @@
+html {
+    font-size: 10px;
+    background: url('background.jpg') center/cover no-repeat; /* Background image */
+    height: 100%;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Modern and stylish font */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; /* Prevents scrolling issues */
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap; /* Allows keys to adjust on different screen sizes */
+    align-items: center;
+    justify-content: center;
+    max-width: 90vw;
+}
+
+.key {
+    border: 0.4rem solid black;
+    border-radius: 0.8rem;
+    margin: 1rem;
+    font-size: 1.6rem;
+    padding: 1.5rem 1rem;
+    transition: transform 0.07s ease, box-shadow 0.07s ease, border-color 0.07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.7); /* Slightly darker for better contrast */
+    text-shadow: 0 0 0.5rem black;
+    cursor: pointer;
+    user-select: none; /* Prevents accidental text selection */
+}
+
+.key:hover {
+    background: rgba(255, 198, 0, 0.4); /* Light hover effect */
+}
+
+.playing {
+    transform: scale(1.15);
+    border-color: #ffc600;
+    box-shadow: 0 0 1.2rem #ffc600;
+    background: rgba(255, 198, 0, 0.9);
+}
+
+kbd {
+    display: block;
+    font-size: 4.2rem;
+    font-weight: bold;
+}
+
+.sound {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #ffc600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+    .key {
+        width: 8rem;
+        font-size: 1.4rem;
+    }
+    kbd {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 7px;
+    }
+    .key {
+        width: 7rem;
+        font-size: 1.2rem;
+        padding: 1rem 0.5rem;
+    }
+    kbd {
+        font-size: 2.5rem;
+    }
+}
