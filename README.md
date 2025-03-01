@@ -31,18 +31,3 @@ This repository contains 30 bite-sized JavaScript projects designed to enhance p
 
 - Clone the repository and navigate to the project folder for the day.
 - Open the `index.html` file in your browser to view and interact with the project.
-- Modify the JavaScript code to explore different functionalities and improve your understanding.
-- Continue working on each project daily for 30 days to complete the challenge.
-
-## Original Version
-<div align="center">
-  <img src="./images/original.png" alt="Original Version" width="400">
-</div>
-
-## Final Version
-<div align="center">
-  <img src="./images/final.png" alt="Final Version" width="400">
-</div>
-
-The images above show an example of a project’s original and final versions. The original version may be a basic implementation, while the final version includes improvements in UI and functionality.
-
