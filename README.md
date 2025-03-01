@@ -18,7 +18,7 @@ Welcome to the 30-Day JavaScript Challenge! This challenge consists of 30 small 
 
 ## Description
 
-This repository contains 30 bite-sized JavaScript projects designed to enhance problem-solving skills, improve JavaScript knowledge, and introduce key web development concepts.
+This repository contains 30 bite-sized JavaScript projects designed to enhance problem-solving skills, improve JavaScript knowledge, and introduce key web development concepts. "Focuses primarily on writing clean and readable JavaScript code, with minimal emphasis on UI, styles, or aesthetics."
 
 ## Features
 
