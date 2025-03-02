@@ -9,9 +9,9 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/YOUR_GITHUB/30-Day-JS-Challenge" alt="GitHub last commit">
-  <img src="https://img.shields.io/github/repo-size/YOUR_GITHUB/30-Day-JS-Challenge" alt="GitHub repo size">
-  <img src="https://img.shields.io/github/license/YOUR_GITHUB/30-Day-JS-Challenge" alt="GitHub license">
+  <img src="https://img.shields.io/github/last-commit/hellogaray/30-Day-JS-Challenge" alt="GitHub last commit">
+  <img src="https://img.shields.io/github/repo-size/hellogaray/30-Day-JS-Challenge" alt="GitHub repo size">
+  <img src="https://img.shields.io/github/license/hellogaray/30-Day-JS-Challenge" alt="GitHub license">
 </p>
 
 Welcome to the 30-Day JavaScript Challenge! This challenge consists of 30 small JavaScript projects aimed at improving your coding skills by building interactive and functional web applications.
