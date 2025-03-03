@@ -31,7 +31,7 @@ This repository contains 30 bite-sized JavaScript projects designed to enhance p
 
 - [x] 01 - JavaScript Drum Kit
 - [x] 02 - JS and CSS Clock
-- [ ] 03 - CSS Variables
+- [x] 03 - CSS Variables
 - [ ] 04 - Array Cardio Day 1
 - [ ] 05 - Flex Panel Gallery
 - [ ] 06 - Type Ahead
