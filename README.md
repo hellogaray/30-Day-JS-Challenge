@@ -33,8 +33,8 @@ This repository contains 30 bite-sized JavaScript projects designed to enhance p
 - [x] 02 - JS and CSS Clock
 - [x] 03 - CSS Variables
 - [x] 04 - Array Cardio Day 1
-- [ ] 05 - Flex Panel Gallery
-- [ ] 06 - Type Ahead
+- [x] 05 - Flex Panel Gallery
+- [x] 06 - Type Ahead
 - [ ] 07 - Array Cardio Day 2
 - [ ] 08 - Fun with HTML5 Canvas
 - [ ] 09 - Dev Tools Domination
