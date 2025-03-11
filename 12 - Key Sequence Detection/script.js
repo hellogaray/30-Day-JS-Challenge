@@ -12,4 +12,3 @@ window.addEventListener('keyup', (event) => {
         cornify_add();
     };
 })
-
