@@ -17,10 +17,19 @@ function debounce(func, wait = 20, immediate = true) {
 
  function checkSlide(event) {
     sliderImages.forEach(sliderImage => {
+      // Image Top
       const slideInAt = (window.scrollY + window.innerHeight) - 
         (sliderImage.height / 2);
 
-      const imageBottom = sliderImage.offsetTop
+      // Image Bottom
+      const imageBottom = sliderImage.offsetTop + sliderImage.height;
+      const isHalfShow = slideInAt > sliderImage.offsetTop;
+      const isNotScrolledPast = window.scrollY < imageBottom;
+      if (isHalfShow && isNotScrolledPast) {
+        sliderImage.classList.add('active');
+      } else {
+        sliderImage.classList.remove('active');
+      }
     });
  }
 
