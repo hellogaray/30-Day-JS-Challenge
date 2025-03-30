@@ -47,15 +47,15 @@ This repository contains 30 bite-sized JavaScript projects designed to enhance p
 - [x] 16 - Mouse Move Shadow
 - [x] 17 - Sort Without Articles
 - [x] 18 - Adding Up Times with Reduce
-- [ ] 19 - Webcam Fun
-- [ ] 20 - Speech Detection
-- [ ] 21 - Geolocation
-- [ ] 22 - Follow Along Link Highlighter
-- [ ] 23 - Speech Synthesis
-- [ ] 24 - Sticky Nav
-- [ ] 25 - Event Capture, Propagation, Bubbling and Once
-- [ ] 26 - Stripe Follow Along Nav
-- [ ] 27 - Click and Drag
-- [ ] 28 - Video Speed Controller
-- [ ] 29 - Countdown Timer
-- [ ] 30 - Whack A Mole
+- [x] 19 - Webcam Fun
+- [x] 20 - Speech Detection
+- [x] 21 - Geolocation
+- [x] 22 - Follow Along Link Highlighter
+- [x] 23 - Speech Synthesis
+- [x] 24 - Sticky Nav
+- [x] 25 - Event Capture, Propagation, Bubbling and Once
+- [x] 26 - Stripe Follow Along Nav
+- [x] 27 - Click and Drag
+- [x] 28 - Video Speed Controller
+- [x] 29 - Countdown Timer
+- [x] 30 - Whack A Mole
